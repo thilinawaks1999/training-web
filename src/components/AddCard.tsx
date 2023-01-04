@@ -39,10 +39,8 @@ function AddCard() {
               variant="outlined"
               fullWidth
               sx={{
-                borderRadius: 10,
                 m: 1,
                 ml: 3,
-                backgroundColor: "#9971E14D",
               }}
               size="small"
             />
@@ -51,7 +49,7 @@ function AddCard() {
           <Grid item md={2} lg={2} xs={12}>
             <Button
               variant="contained"
-              sx={{ borderRadius: 10, m: 1, ml: 3 }}
+              sx={{ m: 1, ml: 3 }}
               onClick={(e) => handleSubmit(e)}
             >
               Submit
